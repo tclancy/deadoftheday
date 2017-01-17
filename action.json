@@ -1,8 +1,8 @@
 {
-  "versionLabel": "<INSERT YOUR VERSION LABEL HERE>",
+  "versionLabel": "1.0.0",
   "agentInfo": {
     "languageCode": "en-US",
-    "projectId": "<INSERT YOUR PROJECT ID HERE>",
+    "projectId": "deadoftheday",
     "voiceName": "male_1"
   },
   "actions": [
@@ -16,9 +16,9 @@
       }
     },
     {
-      "description": "guess a number game",
+      "description": "Get a Grateful Dead concert from this day in history",
       "initialTrigger": {
-        "intent": "START_GUESS_NUMBER",
+        "intent": "START_CONCERT",
         "queryPatterns": [
           {
             "queryPattern": "find a magic number"
